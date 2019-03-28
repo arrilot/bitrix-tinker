@@ -1,0 +1,23 @@
+{
+  "name": "arrilot/bitrix-tinker",
+  "license": "MIT",
+  "keywords": [
+    "bitrix",
+    "tinker"
+  ],
+  "authors": [
+    {
+      "name": "Nekrasov Ilya",
+      "email": "nekrasov.ilya90@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/arrilot/bitrix-tinker",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Arrilot\\BitrixTinker\\": "src/"
+    }
+  }
+}
