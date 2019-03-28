@@ -72,10 +72,10 @@ class TinkerCommand extends Command
     {
         $casters = [];
         if (class_exists('Illuminate\Support\Collection')) {
-            $casters['Illuminate\Support\Collection'] = 'Laravel\Tinker\TinkerCaster::castCollection';
+            $casters['Illuminate\Support\Collection'] = 'Arrilot\BitrixTinker\TinkerCaster::castCollection';
         }
         if (class_exists('Illuminate\Database\Eloquent\Model')) {
-            $casters['Illuminate\Database\Eloquent\Model'] = 'Laravel\Tinker\TinkerCaster::castModel';
+            $casters['Illuminate\Database\Eloquent\Model'] = 'Arrilot\BitrixTinker\TinkerCaster::castModel';
         }
 
         return $casters;
