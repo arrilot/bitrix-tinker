@@ -13,7 +13,8 @@
   ],
   "homepage": "https://github.com/arrilot/bitrix-tinker",
   "require": {
-    "php": ">=5.5.9"
+    "php": ">=5.5.9",
+    "psy/psysh": "0.9.*"
   },
   "autoload": {
     "psr-4": {
