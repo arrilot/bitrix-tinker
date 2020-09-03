@@ -1,5 +1,10 @@
 [![Latest Stable Version](https://poser.pugx.org/arrilot/bitrix-tinker/v/stable.svg)](https://packagist.org/packages/arrilot/bitrix-tinker/)
 
+# Данный пакет больше активно не поддерживается
+
+Причина - мы больше не используем Битрикс в своих проектах.
+Если вам интересен этот проект и вы хотите заняться его поддержкой - форкните его и создайте Issue в данном репозитории чтобы мы поместили здесь ссылку на форк.
+
 # Bitrix-tinker
 
 Порт `laravel/tinker`
